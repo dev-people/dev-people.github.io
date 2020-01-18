@@ -102,7 +102,8 @@ var Terminal = Terminal || function(cmdLineContainer, outputContainer) {
           } else {
             
             if(fileName === 'agenda.txt') {
-              output('<pre>Next event is comming soon...</pre>');
+              output('<pre>Next event: Marth 4 </pre>');
+              output('<p>Follow our news here <a href="https://t.me/dev_people">https://t.me/dev_people</a></p>');
             } else {
               output('File: ' + fileName + ' is not found');
             }
